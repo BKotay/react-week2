@@ -1,0 +1,161 @@
+* {
+  background-color: grey;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+button {
+  height: 100px;
+  background-color: black;
+  color: rgb(30, 3, 3);
+  margin: 20px;
+}
+
+nav {
+  font-size: 2.5rem;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+li a{
+  margin: 15px;
+  color: black;
+}
+
+.nav-links {
+  margin-top: 100px;
+}
+
+.home-title {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.count-title {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.movie-results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 23px;
+}
+
+.movie-input {
+  height: 59px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.movie-btn{
+  width: 150px;
+  font-size: 1.2rem;
+  height: 75px;
+  margin-bottom: -10px;
+}
+
+.task-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 500px;
+}
+
+.delete-btn {
+    width: 120px;
+    font-size: 1.2rem;
+    height: 70px;
+  
+}
+
+.tasks {
+  font-size: 1.3rem;
+}
+
+.tasks:hover a {
+  color: white;
+  transform: scale(.90);
+}
+
+.edit-task {
+  background-color: black;
+  height: 50px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 322px) {
+nav {
+  font-size: 1.25rem;
+  margin-top: 50px;
+}
+.home-title {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.count-title {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.add {
+  height: 80px;
+}
+.subtract {
+  height: 80px;
+}
+.movie-results {
+  display: block;
+  font-size: 16px;
+}
+
+.movie-input {
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.movie-btn{
+  width: 120px;
+  font-size: 1.2rem;
+  height: 70px;
+}
+.edit-task-paragraph{
+  font-size: 1.3rem;
+}
+
+.add-new-task{
+  width: 150px;
+  font-size: 1.3rem;
+}
+
+.task-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 200px;
+}
+.task-title {
+  font-size: 3rem;
+  font-weight: 500;
+}
+}
